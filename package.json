@@ -36,6 +36,7 @@
     "acorn": "^6.0.2",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
+    "browserslist": "^4.3.4",
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.1",
