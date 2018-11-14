@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --open",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "jest": {
     "testEnvironment": "jsdom",
@@ -44,8 +45,8 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-hot-loader": "^4.3.12"
   },
   "devDependencies": {
@@ -65,8 +66,9 @@
     "@babel/preset-react": "7.0.0",
     "@babel/register": "7.0.0",
     "@babel/runtime": "7.1.2",
-    "babel-core": "^7.0.0-bridge.0",
+    "@storybook/react": "^4.0.6",
     "acorn": "^6.0.2",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
     "browserslist": "^4.3.4",
